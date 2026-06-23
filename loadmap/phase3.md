@@ -6,16 +6,16 @@
 
 ## 読む
 
-- 定義: Google Cloud による AI エージェント（単一エージェント）の定義  
+- [ ] 定義: Google Cloud による AI エージェント（単一エージェント）の定義  
   https://cloud.google.com/discover/what-are-ai-agents?hl=ja
 
-- 解説: 日本語での Single Agent vs Multi Agent の整理記事  
+- [ ] 解説: 日本語での Single Agent vs Multi Agent の整理記事  
   https://www.chowagiken.co.jp/future-studio/aiagent_singleagent_multiagent_1/
 
-- 分析: Read-heavy/Multi vs Write-heavy/Single の設計指針を解説した英語記事  
+- [ ] 分析: Read-heavy/Multi vs Write-heavy/Single の設計指針を解説した英語記事  
   https://zenn.dev/r_kaga/articles/ea7119d22d4d3c?locale=en
 
-- 解説: iret による AI エージェント設計の解説  
+- [ ] 解説: iret による AI エージェント設計の解説  
   https://iret.media/194024
 
 ## ハンズオン（2〜4 週間）
@@ -31,8 +31,8 @@
 | Tool セット | GitHub API / DB / HTTP / Shell など |
 | 成功条件 | テスト通過、CI 成功、diff の粒度 |
 
-- Single エージェント構成で実装する
-- Multi にした場合どう分割するかもメモしておく
+- [ ] Single エージェント構成で実装する
+- [ ] Multi にした場合どう分割するかもメモしておく
 
 ---
 
@@ -43,23 +43,23 @@
 
 ### 読む
 
-- 公式ロードマップ: 2026 MCP Roadmap  
+- [ ] 公式ロードマップ: 2026 MCP Roadmap  
   https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/
 
-- MCP の普及状況と採用事例  
+- [ ] MCP の普及状況と採用事例  
   https://www.digitalapplied.com/blog/mcp-97-million-downloads-model-context-protocol-mainstream
 
 ### 設計観点
 
-- **既存 MCP サーバーを探す**: 公開サーバー 1 万件超。自作前にまず探す
-- **自作 MCP サーバー**: stdio / HTTP の 2 つのトランスポートを理解する
-- **セキュリティ**: ツールの権限スコープを最小化。外部公開 MCP サーバーを使う際はサンドボックスを挟む
+- [ ] **既存 MCP サーバーを探す**: 公開サーバー 1 万件超。自作前にまず探す
+- [ ] **自作 MCP サーバー**: stdio / HTTP の 2 つのトランスポートを理解する
+- [ ] **セキュリティ**: ツールの権限スコープを最小化。外部公開 MCP サーバーを使う際はサンドボックスを挟む
 
 ### ハンズオン
 
-- フェーズ 3 のエージェントで利用するツールを MCP サーバーとして実装する
+- [ ] フェーズ 3 のエージェントで利用するツールを MCP サーバーとして実装する
   - GitHub API / DB / HTTP などを各 1 つ MCP サーバー化する
-- VS Code / Claude Code などから MCP サーバーに接続して動作を確認する
+- [ ] VS Code / Claude Code などから MCP サーバーに接続して動作を確認する
 
 ---
 
@@ -70,7 +70,7 @@
 
 ### 読む
 
-- 推論モデルのプロンプト戦略ガイド（o3, Claude Opus 4, Gemini, R1）  
+- [ ] 推論モデルのプロンプト戦略ガイド（o3, Claude Opus 4, Gemini, R1）  
   https://sureprompts.com/blog/ai-reasoning-models-prompting-complete-guide-2026
 
 ### ルーティング設計の目安
@@ -82,5 +82,5 @@
 
 ### ハンズオン
 
-- タスクの種類（複雑度・出力の重要性）を分類するルーター関数を実装する
-- コスト・精度・レイテンシをモデル tier 別に計測して判断基準を言語化する
+- [ ] タスクの種類（複雑度・出力の重要性）を分類するルーター関数を実装する
+- [ ] コスト・精度・レイテンシをモデル tier 別に計測して判断基準を言語化する

@@ -14,21 +14,21 @@
 
 ### 公式ドキュメント/リポジトリ
 
-- 公式サイト: https://www.langchain.com/langgraph
-- 公式 Docs: https://langchain-ai.github.io/langgraph/
-- GitHub: https://github.com/langchain-ai/langgraph
+- [ ] 公式サイト: https://www.langchain.com/langgraph
+- [ ] 公式 Docs: https://langchain-ai.github.io/langgraph/
+- [ ] GitHub: https://github.com/langchain-ai/langgraph
 
 ### 学習の観点
 
-- サイクリックグラフ（ループ・分岐・ステート管理）
-- チェックポイントと LangGraph Studio（タイムトラベルデバッグ）
-- マルチエージェントオーケストレーション（Supervisor / Swarm パターン）
+- [ ] サイクリックグラフ（ループ・分岐・ステート管理）
+- [ ] チェックポイントと LangGraph Studio（タイムトラベルデバッグ）
+- [ ] マルチエージェントオーケストレーション（Supervisor / Swarm パターン）
 
 ### ハンズオン
 
-- Python で「Plan → ToolUse → Review」ループを LangGraph で実装する
-- LangGraph Studio でステート遷移を可視化し、失敗ノードを特定する
-- TypeScript でも同じグラフを実装して API 経由で叩けるようにする
+- [ ] Python で「Plan → ToolUse → Review」ループを LangGraph で実装する
+- [ ] LangGraph Studio でステート遷移を可視化し、失敗ノードを特定する
+- [ ] TypeScript でも同じグラフを実装して API 経由で叩けるようにする
 
 ---
 
@@ -39,14 +39,14 @@
 
 ### 公式ドキュメント/リポジトリ
 
-- 公式 Docs: https://docs.langchain.com
-- GitHub: https://github.com/langchain-ai/langchain
+- [ ] 公式 Docs: https://docs.langchain.com
+- [ ] GitHub: https://github.com/langchain-ai/langchain
 
 ### 押さえるだけでよいコンポーネント
 
-- Models（LLM / ChatModel）、Prompts、Output Parsers
-- Tools / Tool calling
-- RAG（VectorStore / Retriever / Document Loader）
+- [ ] Models（LLM / ChatModel）、Prompts、Output Parsers
+- [ ] Tools / Tool calling
+- [ ] RAG（VectorStore / Retriever / Document Loader）
 
 ---
 
@@ -57,28 +57,28 @@
 
 ### LangSmith（LangChain エコシステム中心）
 
-- Docs: https://docs.langsmith.com
-- GitHub (SDK): https://github.com/langchain-ai/langsmith-sdk
+- [ ] Docs: https://docs.langsmith.com
+- [ ] GitHub (SDK): https://github.com/langchain-ai/langsmith-sdk
 
 **使う場面**: LangGraph / LangChain を中心に組む場合。統合がシームレス。
 
 ### Langfuse（フレームワーク非依存・OSSセルフホスト）
 
-- Docs: https://langfuse.com/docs
-- GitHub (docs): https://github.com/langfuse/langfuse-docs
+- [ ] Docs: https://langfuse.com/docs
+- [ ] GitHub (docs): https://github.com/langfuse/langfuse-docs
 
 **使う場面**: 自前エージェント（FastAPI / Lambda）や LangChain 以外のスタックを使う場合。
 
 ### 学習の観点（共通）
 
-- トレースモデル（traces / spans / events / metadata）
-- プロンプト / エージェントのバージョニング
-- ボトルネック可視化（どのツール呼び出しが遅いか・失敗しているか）
+- [ ] トレースモデル（traces / spans / events / metadata）
+- [ ] プロンプト / エージェントのバージョニング
+- [ ] ボトルネック可視化（どのツール呼び出しが遅いか・失敗しているか）
 
 ### ハンズオン
 
-- フェーズ 3 のシングルエージェントを Langfuse に接続し、失敗トレースを収集する
-- 「どのプロンプト/ツール呼び出し」がボトルネックかを可視化する
+- [ ] フェーズ 3 のシングルエージェントを Langfuse に接続し、失敗トレースを収集する
+- [ ] 「どのプロンプト/ツール呼び出し」がボトルネックかを可視化する
 
 ---
 
@@ -98,11 +98,11 @@
 
 ### 読む
 
-- Best LLM Evaluation Tools 2026: https://www.confident-ai.com/knowledge-base/compare/best-llm-evaluation-tools
-- Braintrust 評価ツール比較: https://www.braintrust.dev/articles/best-llm-evaluation-tools-integrations-2025
-- Langfuse vs LangSmith: https://www.zenml.io/blog/langfuse-vs-langsmith
+- [ ] Best LLM Evaluation Tools 2026: https://www.confident-ai.com/knowledge-base/compare/best-llm-evaluation-tools
+- [ ] Braintrust 評価ツール比較: https://www.braintrust.dev/articles/best-llm-evaluation-tools-integrations-2025
+- [ ] Langfuse vs LangSmith: https://www.zenml.io/blog/langfuse-vs-langsmith
 
 ### ハンズオン
 
-- DeepEval でフェーズ 3 のエージェント出力を評価する（忠実度・ハルシネーション率を計測）
-- Braintrust を CI に組み込み、プロンプト変更時に自動で eval を走らせる
+- [ ] DeepEval でフェーズ 3 のエージェント出力を評価する（忠実度・ハルシネーション率を計測）
+- [ ] Braintrust を CI に組み込み、プロンプト変更時に自動で eval を走らせる

@@ -7,20 +7,20 @@
 
 ## 読む/見る
 
-- 記事: 「プロンプトからエージェントまで。AIを使いこなすための4つのステップ」  
-  （プロンプト/コンテキスト/ハーネス/エージェントのレイヤ整理）  
+- [x] 記事: 「プロンプトからエージェントまで。AIを使いこなすための4つのステップ」
+  （プロンプト/コンテキスト/ハーネス/エージェントのレイヤ整理）
   https://note.com/noble_crane1635/n/n73100d30ea37
 
-- 記事: コンテキスト/ハーネスの対比と定義を整理している Zenn 記事  
+- [ ] 記事: コンテキスト/ハーネスの対比と定義を整理している Zenn 記事
   https://zenn.dev/emuni/articles/7c1493a52a3569
 
-- 概説: Google Cloud の AI エージェント解説（単一エージェントの定義）  
+- [ ] 概説: Google Cloud の AI エージェント解説（単一エージェントの定義）
   https://cloud.google.com/discover/what-are-ai-agents?hl=ja
 
-- 概説: Dataiku の single-agent vs multi-agent のエンタープライズ視点の整理  
+- [ ] 概説: Dataiku の single-agent vs multi-agent のエンタープライズ視点の整理
   https://www.dataiku.com/stories/blog/single-agent-vs-multi-agent-systems
 
-- 概説: シングルエージェントとマルチエージェントの特徴を整理した解説記事（日本語）  
+- [ ] 概説: シングルエージェントとマルチエージェントの特徴を整理した解説記事（日本語）
   https://www.chowagiken.co.jp/future-studio/aiagent_singleagent_multiagent_1/
 
 ## やること（1 週間）

@@ -10,20 +10,20 @@
 
 ### 読む
 
-- 解説記事: 3 ヶ月で学ぶプロンプトエンジニアリングロードマップ（日本語）  
+- [ ] 解説記事: 3 ヶ月で学ぶプロンプトエンジニアリングロードマップ（日本語）
   https://note.com/jux/n/n48e963834f23
 
-- 解説記事: 2025/2026 年向けのプロンプトエンジニアリング総論記事（ロードマップ付き）  
+- [ ] 解説記事: 2025/2026 年向けのプロンプトエンジニアリング総論記事（ロードマップ付き）
   https://kirekaku.com/438/
 
 ### 動画（英語でもよければ）
 
-- OpenAI / Anthropic / DeepLearning.AI などの「Prompt Engineering」入門コース（YouTube 上に多数）
+- [ ] OpenAI / Anthropic / DeepLearning.AI などの「Prompt Engineering」入門コース（YouTube 上に多数）
   - 例）DeepLearning.AI "ChatGPT Prompt Engineering for Developers"
 
 ### ハンズオン
 
-- ChatGPT / Claude / Gemini どれでもよいので、以下をテンプレ化
+- [ ] ChatGPT / Claude / Gemini どれでもよいので、以下をテンプレ化
   - Role Prompt + Style + Constraints を 3 パターン作る（例: コードレビュー、要件定義、SQL 生成）
   - Few-shot プロンプトで「よくやる業務」を 3 つ自動化（例: PR サマリ生成など）
 
@@ -33,13 +33,13 @@
 
 ### 読む
 
-- 入門記事: 「コンテキストエンジニアリングとは？基本から実践まで」  
+- [ ] 入門記事: 「コンテキストエンジニアリングとは？基本から実践まで」  
   https://qiita.com/nogataka/items/4ec84d29055fbddca82f
 
-- 実践ガイド: 2026 年版コンテキストエンジニアリング完全ガイド（Write/Select/Compress/Isolate 戦略）  
+- [ ] 実践ガイド: 2026 年版コンテキストエンジニアリング完全ガイド（Write/Select/Compress/Isolate 戦略）  
   https://www.shareuhack.com/ja/posts/context-engineering-guide-2026
 
-- GitHub: Karpathy 系の Context Engineering リポジトリ（記事内で `davidkimai/Context-Engineering` が紹介）  
+- [ ] GitHub: Karpathy 系の Context Engineering リポジトリ（記事内で `davidkimai/Context-Engineering` が紹介）  
   https://www.shareuhack.com/ja/posts/context-engineering-guide-2026
 
 ### ハンズオン
@@ -60,10 +60,10 @@
 
 ### 読む
 
-- フレームワーク: 1M Context Windows のトラップと RAG vs Long Context の判断基準  
+- [ ] フレームワーク: 1M Context Windows のトラップと RAG vs Long Context の判断基準  
   https://www.keepmyprompts.com/en/blog/1m-context-windows-trap-rag-decision-framework
 
-- 本番判断軸: Long-Context Models vs. RAG — プロダクション向け意思決定フレームワーク  
+- [ ] 本番判断軸: Long-Context Models vs. RAG — プロダクション向け意思決定フレームワーク  
   https://tianpan.co/blog/2026-04-09-long-context-vs-rag-production-decision-framework
 
 ### 判断基準（使い分けの目安）
